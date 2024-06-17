@@ -31,7 +31,7 @@
 </style>
 
 <ul id="menu">
-        <li><a href="index.php?page=Beranda">Beranda</a></li>
+        <li><a href="Beranda">Beranda</a></li>
         <li><a href="NIM_login.php">Login</a></li>
         <li><a href="NIM_loop.php">Loop</a></li>
         <li><a href="NIM_profil.php">Profil</a></li>
