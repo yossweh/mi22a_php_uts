@@ -1,11 +1,9 @@
-<?php 
-
-  /**
-  *    NIM   : 2257401016
-  *    Nama  : Helen Imeldasari
-  *    Kelas : MI22A
-  */
-
+<?php
+/**
+* NIM : 2257401016
+* Nama : Helen Imeldasari
+* Kelas : MI22AB
+*/
 ?>
 
 <form action="" method="POST">
@@ -35,14 +33,15 @@
 <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $username = $_POST["username"];
-        $password = $_POST["password"];
+        $password = $_POST["password"]; 
 
         if ($username == "admin" && $password == "admin") {
-            echo "Login Berhasil";
-        } else {
-            echo "Username/Password tidak sesuai";
+            echo "<div class='message-berhasil'>Login Berhasil</div>";
+        } 
+        else {
+            echo "<div class='message-gagal'> Username/Password tidak sesuai</div>";
         }
     }
     ?>
 </body>
-</html>
+</html> 
